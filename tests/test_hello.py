@@ -1,5 +1,5 @@
-from peweb.root import hello
+from peweb.src.main import route_pages
 
 def test_hello():
-    assert hello() == 'Hello World!'
+    assert route_pages() == 'Hello World! It\'s totally radical, home'
 
